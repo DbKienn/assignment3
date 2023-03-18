@@ -1,0 +1,98 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .nav-avt {
+    display: none;
+  }
+  .container-nav {
+    grid-template-columns: 1fr 1fr 80px 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .target-grid {
+    padding-left: 10px;
+  }
+  #container-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  #job-info {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  ----------certificate----------  */
+  .main-box {
+    grid-column: 1 / span 3;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .box-2 {
+    padding-left: 15px;
+    border-left: 2px solid #d6c08d;
+  }
+  .certificate-box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container-cer {
+    margin-left: 30px !important;
+    padding-bottom: 20px;
+  }
+  /* section > .container {
+    padding: 30px 50px;
+  } */
+
+  .img-1 {
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .box {
+    display: block;
+    margin-right: 10px;
+    font-size: 14px;
+    align-items: center;
+  }
+  .project-box {
+    /* margin-top: 30px;
+    display: grid; */
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+  }
+  .project-box-1 {
+    width: 150px;
+  }
+  .container-project {
+    margin-left: 30px !important;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+  .img-project {
+    object-fit: contain;
+    width: 100%;
+  }
+  .content-interest {
+    padding-top: 14px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .funcion-1 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+
+    padding-left: 10px;
+    border: 1px solid #dee2e6;
+  }
+}

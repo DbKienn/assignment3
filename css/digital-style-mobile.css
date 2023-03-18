@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .box,
+  .scopes-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 20px;
+  }
+  .goals,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    margin-bottom: 20px;
+  }
+}

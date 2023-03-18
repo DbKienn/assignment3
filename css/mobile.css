@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+  .nav-avt,
+  .Nav-name {
+    display: none;
+  }
+  .grid-mobile,
+  #container-grid,
+  .certificate-box1,
+  .project-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1rf;
+  }
+  .target-grid {
+    padding: 50px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .img-1 {
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
